@@ -1,270 +1,273 @@
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[1]		[]		[]		[]		[]		[]			[]			[]			[]
+Enter service room count : 3
+Enter cycle count: 10
+Enter payment capcity count: 2
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[1]     []      []      []      []      []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[1]		[]		[]		[]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [1]     []      []      []      []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[1]		[]		[]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      [1]     []      []      []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[2]		[]		[1]		[]		[]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[2]     []      [1]     []      []      []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[2]		[1]		[]		[]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [2]     [1]     []      []      []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[4]		[2]		[1]		[]		[]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[4]     [2]     [1]     []      []      []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[4]		[2]		[]		[1]		[]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[4]     [2]     []      [1]     []      []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[4]		[2]		[]		[]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[4]     [2]     []      []      [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[4]		[]		[2]		[]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[4]     []      [2]     []      [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[4]		[2]		[]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [4]     [2]     []      [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[5]		[4]		[2]		[]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[5]     [4]     [2]     []      [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[5]		[4]		[]		[2]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[5]     [4]     []      [2]     [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[5]		[]		[4]		[2]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[5]     []      [4]     [2]     [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[5]		[4]		[2]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [5]     [4]     [2]     [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[5]		[]		[2, 4]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [5]     []      [2, 4]  [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[6]		[5]		[]		[2, 4]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[6]     [5]     []      [2, 4]  [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[6]		[]		[5]		[2, 4]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[6]     []      [5]     [2, 4]  [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[6]		[5]		[2, 4]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [6]     [5]     [2, 4]  [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[7]		[6]		[5]		[2, 4]		[1]		[]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[7]     [6]     [5]     [2, 4]  [1]     []              []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[7]		[6]		[5]		[2, 4]		[]		[1]			[]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[7]     [6]     [5]     [2, 4]  []      [1]             []              []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[7]		[6]		[5]		[2, 4]		[]		[]			[1]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[7]     [6]     [5]     [2, 4]  []      []              [1]             []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[7]		[6]		[5]		[4]		[2]		[]			[1]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[7]     [6]     [5]     [4]     [2]     []              [1]             []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[7]		[6]		[]		[4, 5]		[2]		[]			[1]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[7]     [6]     []      [4, 5]  [2]     []              [1]             []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[7]		[]		[6]		[4, 5]		[2]		[]			[1]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[7]     []      [6]     [4, 5]  [2]     []              [1]             []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[7]		[6]		[4, 5]		[2]		[]			[1]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [7]     [6]     [4, 5]  [2]     []              [1]             []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[7]		[]		[4, 5, 6]		[2]		[]			[1]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [7]     []      [4, 5, 6]       [2]     []              [1]             []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[7]		[4, 5, 6]		[2]		[]			[1]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      [7]     [4, 5, 6]       [2]     []              [1]             []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[7]		[4, 5, 6]		[]		[2]			[1]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      [7]     [4, 5, 6]       []      [2]             [1]             []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[7]		[5, 6]		[4]		[2]			[1]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      [7]     [5, 6]  [4]     [2]             [1]             []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[7]		[5, 6]		[4]		[]			[1, 2]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      [7]     [5, 6]  [4]     []              [1, 2]          []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[7]		[5, 6]		[]		[4]			[1, 2]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      [7]     [5, 6]  []      [4]             [1, 2]          []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[5, 6, 7]		[]		[4]			[1, 2]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      [5, 6, 7]       []      [4]             [1, 2]          []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[6, 7]		[5]		[4]			[1, 2]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      [6, 7]  [5]     [4]             [1, 2]          []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[6, 7]		[]		[4, 5]			[1, 2]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      [6, 7]  []      [4, 5]          [1, 2]          []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[7]		[6]		[4, 5]			[1, 2]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      [7]     [6]     [4, 5]          [1, 2]          []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[7]		[]		[4, 5, 6]			[1, 2]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      [7]     []      [4, 5, 6]               [1, 2]          []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[7]		[4, 5, 6]			[1, 2]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      [7]     [4, 5, 6]               [1, 2]          []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[4, 5, 6, 7]			[1, 2]			[]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [4, 5, 6, 7]            [1, 2]          []              []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[4, 5, 6, 7]			[2]			[1]			[]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [4, 5, 6, 7]            [2]             [1]             []
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[4, 5, 6, 7]			[2]			[]			[1]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [4, 5, 6, 7]            [2]             []              [1]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[5, 6, 7]			[2, 4]			[]			[1]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [5, 6, 7]               [2, 4]          []              [1]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[5, 6, 7]			[4]			[2]			[1]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [5, 6, 7]               [4]             [2]             [1]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[5, 6, 7]			[4]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [5, 6, 7]               [4]             []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[8]		[]		[]		[]		[]		[5, 6, 7]			[4]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[8]     []      []      []      []      [5, 6, 7]               [4]             []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[8]		[]		[]		[]		[5, 6, 7]			[4]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [8]     []      []      []      [5, 6, 7]               [4]             []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[8]		[]		[]		[5, 6, 7]			[4]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      [8]     []      []      [5, 6, 7]               [4]             []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[9]		[]		[8]		[]		[]		[5, 6, 7]			[4]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[9]     []      [8]     []      []      [5, 6, 7]               [4]             []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[9]		[]		[8]		[]		[]		[6, 7]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[9]     []      [8]     []      []      [6, 7]          [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[9]		[]		[]		[8]		[]		[6, 7]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[9]     []      []      [8]     []      [6, 7]          [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[9]		[]		[]		[]		[8]		[6, 7]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[9]     []      []      []      [8]     [6, 7]          [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[9]		[]		[]		[8]		[6, 7]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [9]     []      []      [8]     [6, 7]          [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[9]		[]		[8]		[6, 7]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      [9]     []      [8]     [6, 7]          [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[10]		[]		[9]		[]		[8]		[6, 7]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[10]    []      [9]     []      [8]     [6, 7]          [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[10]		[]		[9]		[]		[]		[6, 7, 8]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[10]    []      [9]     []      []      [6, 7, 8]               [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[10]		[]		[]		[9]		[]		[6, 7, 8]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[10]    []      []      [9]     []      [6, 7, 8]               [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[10]		[]		[]		[]		[9]		[6, 7, 8]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[10]    []      []      []      [9]     [6, 7, 8]               [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[10]		[]		[]		[9]		[6, 7, 8]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [10]    []      []      [9]     [6, 7, 8]               [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[10]		[]		[9]		[6, 7, 8]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      [10]    []      [9]     [6, 7, 8]               [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[10]		[9]		[6, 7, 8]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      [10]    [9]     [6, 7, 8]               [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[10]		[]		[6, 7, 8, 9]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      [10]    []      [6, 7, 8, 9]            [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[10]		[6, 7, 8, 9]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      [10]    [6, 7, 8, 9]            [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[6, 7, 8, 9, 10]			[4, 5]			[]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [6, 7, 8, 9, 10]                [4, 5]          []              [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[6, 7, 8, 9, 10]			[5]			[4]			[1, 2]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [6, 7, 8, 9, 10]                [5]             [4]             [1, 2]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[6, 7, 8, 9, 10]			[5]			[]			[1, 2, 4]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [6, 7, 8, 9, 10]                [5]             []              [1, 2, 4]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[7, 8, 9, 10]			[5, 6]			[]			[1, 2, 4]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [7, 8, 9, 10]           [5, 6]          []              [1, 2, 4]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[7, 8, 9, 10]			[6]			[5]			[1, 2, 4]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [7, 8, 9, 10]           [6]             [5]             [1, 2, 4]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[7, 8, 9, 10]			[6]			[]			[1, 2, 4, 5]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [7, 8, 9, 10]           [6]             []              [1, 2, 4, 5]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[3]		[]		[]		[]		[]		[7, 8, 9, 10]			[6]			[]			[1, 2, 4, 5]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[3]     []      []      []      []      [7, 8, 9, 10]           [6]             []              [1, 2, 4, 5]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[3]		[]		[]		[]		[]		[8, 9, 10]			[6, 7]			[]			[1, 2, 4, 5]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[3]     []      []      []      []      [8, 9, 10]              [6, 7]          []              [1, 2, 4, 5]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[3]		[]		[]		[]		[8, 9, 10]			[6, 7]			[]			[1, 2, 4, 5]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      [3]     []      []      []      [8, 9, 10]              [6, 7]          []              [1, 2, 4, 5]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[3]		[]		[]		[8, 9, 10]			[6, 7]			[]			[1, 2, 4, 5]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      [3]     []      []      [8, 9, 10]              [6, 7]          []              [1, 2, 4, 5]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[3]		[]		[8, 9, 10]			[6, 7]			[]			[1, 2, 4, 5]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      [3]     []      [8, 9, 10]              [6, 7]          []              [1, 2, 4, 5]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[3]		[8, 9, 10]			[6, 7]			[]			[1, 2, 4, 5]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      [3]     [8, 9, 10]              [6, 7]          []              [1, 2, 4, 5]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[8, 9, 10, 3]			[6, 7]			[]			[1, 2, 4, 5]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [8, 9, 10, 3]           [6, 7]          []              [1, 2, 4, 5]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[8, 9, 10, 3]			[7]			[6]			[1, 2, 4, 5]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [8, 9, 10, 3]           [7]             [6]             [1, 2, 4, 5]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[8, 9, 10, 3]			[7]			[]			[1, 2, 4, 5, 6]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [8, 9, 10, 3]           [7]             []              [1, 2, 4, 5, 6]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[9, 10, 3]			[7, 8]			[]			[1, 2, 4, 5, 6]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [9, 10, 3]              [7, 8]          []              [1, 2, 4, 5, 6]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[9, 10, 3]			[8]			[7]			[1, 2, 4, 5, 6]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [9, 10, 3]              [8]             [7]             [1, 2, 4, 5, 6]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[9, 10, 3]			[8]			[]			[1, 2, 4, 5, 6, 7]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [9, 10, 3]              [8]             []              [1, 2, 4, 5, 6, 7]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[10, 3]			[8, 9]			[]			[1, 2, 4, 5, 6, 7]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [10, 3]         [8, 9]          []              [1, 2, 4, 5, 6, 7]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[10, 3]			[9]			[8]			[1, 2, 4, 5, 6, 7]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [10, 3]         [9]             [8]             [1, 2, 4, 5, 6, 7]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[10, 3]			[9]			[]			[1, 2, 4, 5, 6, 7, 8]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [10, 3]         [9]             []              [1, 2, 4, 5, 6, 7, 8]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[10, 3]			[]			[9]			[1, 2, 4, 5, 6, 7, 8]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [10, 3]         []              [9]             [1, 2, 4, 5, 6, 7, 8]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[3]			[10]			[9]			[1, 2, 4, 5, 6, 7, 8]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [3]             [10]            [9]             [1, 2, 4, 5, 6, 7, 8]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[3]			[10]			[]			[1, 2, 4, 5, 6, 7, 8, 9]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [3]             [10]            []              [1, 2, 4, 5, 6, 7, 8, 9]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[3]			[]			[10]			[1, 2, 4, 5, 6, 7, 8, 9]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      [3]             []              [10]            [1, 2, 4, 5, 6, 7, 8, 9]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[]			[3]			[10]			[1, 2, 4, 5, 6, 7, 8, 9]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      []              [3]             [10]            [1, 2, 4, 5, 6, 7, 8, 9]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[]			[3]			[]			[1, 2, 4, 5, 6, 7, 8, 9, 10]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      []              [3]             []              [1, 2, 4, 5, 6, 7, 8, 9, 10]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[]			[]			[3]			[1, 2, 4, 5, 6, 7, 8, 9, 10]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      []              []              [3]             [1, 2, 4, 5, 6, 7, 8, 9, 10]
 ====================================================================
-In_R1	Out_R1	In_R2	Out_R2	In_R3	Out_R3		PayBooth	DepartLine	Departed
-[]		[]		[]		[]		[]		[]			[]			[]			[1, 2, 4, 5, 6, 7, 8, 9, 10, 3]
+In_R1   Out_R1  In_R2   Out_R2  In_R3   Out_R3          PayBooth        DepartLine      Departed
+[]      []      []      []      []      []              []              []              [1, 2, 4, 5, 6, 7, 8, 9, 10, 3]
 ====================================================================
