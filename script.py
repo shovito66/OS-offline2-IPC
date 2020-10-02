@@ -3,7 +3,8 @@ import time
 service_room = int(input("Enter service room count : "))
 cycle = int(input("Enter cycle count: "))
 paybooth = int(input("Enter payment capcity count: "))
-filepath = input("Enter your filename (i.e: 1605000.txt): ")
+filepath = "1605066.txt"
+# filepath = input("Enter your filename (i.e: 1605000.txt): ")
 
 
 def get_numbers(text):
