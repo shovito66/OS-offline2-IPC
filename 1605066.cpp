@@ -50,7 +50,7 @@ void *consume_service(void *arg)
         int serviceMan = i + 1;
         sem_wait(&service_array[i]); ///decrease
         printf("%s started taking service from serviceman %d\n", (char *)arg, serviceMan); fflush(stdout);
-        sleep(rand()%4);
+        sleep(rand()%3);
         printf("%s finished taking service from serviceman %d\n", (char *)arg, serviceMan); fflush(stdout);
         sem_post(&service_array[i]); ///increase
         
@@ -108,14 +108,14 @@ void *paymentProcess(void *arg){
         void *poppedCycle = paymentQ.front(); //Empty kina check kora lagbe
         paymentQ.pop();
         printf("%s started paying the service bill\n", (char *)poppedCycle); fflush(stdout);
-        sleep(rand()%4);
+        sleep(rand()%3);
         pthread_mutex_unlock(&mutex);
         // printf("%s Left Payment room\n", (char *)poppedCycle); fflush(stdout);
         // printf("%s finished paying the service bill\n", (char *)poppedCycle); fflush(stdout); //--> now in 127
         sem_post(&sAvailablePayBooth); ///increase,
         
         pthread_mutex_lock(&wcs); //lock wcs
-        writeCount++;
+        writeCount = writeCount + 1;
         // printf("COUNT UP---:%d\n",writeCount);
         if (writeCount == 1){
             sem_wait(&s_rd); //decrease
@@ -124,16 +124,17 @@ void *paymentProcess(void *arg){
         
         sem_wait(&s_wrt);           //decrease
         //WriterCode End
-        printf("%s finished paying the service bill\n", (char *)poppedCycle); fflush(stdout); // from 114--> 
-        sleep(rand()%4);
-        printf("%s has departed\n", (char *)poppedCycle); fflush(stdout);
+        printf("%s finished paying the service bill\n", (char *)poppedCycle); fflush(stdout); // from--> 114 
+        sleep(rand()%2);
+        // printf("%s has departed\n", (char *)poppedCycle); fflush(stdout);  //--> now in 136
         sem_post(&s_wrt);         //increase
         
         
         
         //WriterCode Start
         pthread_mutex_lock(&wcs); //lock wcs
-        writeCount--;
+        printf("%s has departed\n", (char *)poppedCycle); fflush(stdout);  // from--> 129
+        writeCount = writeCount-1;
         // printf("COUNT DOWN---:%d\n",writeCount);
         if (writeCount == 0){
             sem_post(&s_rd); //increase
