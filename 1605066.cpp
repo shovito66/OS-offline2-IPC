@@ -9,9 +9,9 @@
 
 using namespace std;
 
-#define number_of_serviceBooth 3 // array be array of BinarySemaphore/mutex (# of customer that can contain in Service room)
+#define number_of_serviceBooth 4 // array be array of BinarySemaphore/mutex (# of customer that can contain in Service room)
 #define number_of_cycle 10        // act like a Thread (# of customer)
-#define payementBooth 2          // # of customer that can contain in payment room
+#define payementBooth 3          // # of customer that can contain in payment room
 #define INFINITY 9999
 
 pthread_mutex_t mutex, payMutex, rdMutex;
@@ -48,12 +48,19 @@ void *consume_service(void *arg)
 
     for (int i = 0; i < number_of_serviceBooth; i++){
         int serviceMan = i + 1;
+        //--------------***************----------------------------
         sem_wait(&service_array[i]); ///decrease
+        if(serviceMan>1){
+            sem_post(&service_array[i-1]); ///increase, prvious cycle er lock chartesi sir er output milanor jnno
+        }
+        //--------------***************---------------------------- 
         printf("%s started taking service from serviceman %d\n", (char *)arg, serviceMan); fflush(stdout);
         sleep(rand()%3);
         printf("%s finished taking service from serviceman %d\n", (char *)arg, serviceMan); fflush(stdout);
-        sem_post(&service_array[i]); ///increase
-        
+        //--------------***************----------------------------
+        // sem_post(&service_array[i]); ///increase 
+        //--------------***************----------------------------
+
         //readerCode Start
         pthread_mutex_lock(&rcs);
         if (serviceMan==1)
@@ -63,6 +70,9 @@ void *consume_service(void *arg)
         }
         pthread_mutex_unlock(&rcs);
     }
+    //--------------***************----------------------------
+    sem_post(&service_array[number_of_serviceBooth-1]); ///increase,prvious cycle er lock chartesi sir er output milanor jnno    
+    //--------------***************----------------------------
     // printf("%s Left Service Room\n", (char *)arg); fflush(stdout);
 
     pthread_mutex_lock(&mutex);
@@ -111,7 +121,7 @@ void *paymentProcess(void *arg){
         sleep(rand()%3);
         pthread_mutex_unlock(&mutex);
         // printf("%s Left Payment room\n", (char *)poppedCycle); fflush(stdout);
-        // printf("%s finished paying the service bill\n", (char *)poppedCycle); fflush(stdout); //--> now in 127
+        // printf("%s finished paying the service bill\n", (char *)poppedCycle); fflush(stdout); //--> now in 137
         sem_post(&sAvailablePayBooth); ///increase,
         
         pthread_mutex_lock(&wcs); //lock wcs
@@ -124,16 +134,15 @@ void *paymentProcess(void *arg){
         
         sem_wait(&s_wrt);           //decrease
         //WriterCode End
-        printf("%s finished paying the service bill\n", (char *)poppedCycle); fflush(stdout); // from--> 114 
+        printf("%s finished paying the service bill\n", (char *)poppedCycle); fflush(stdout); // from--> 127 
         sleep(rand()%2);
-        // printf("%s has departed\n", (char *)poppedCycle); fflush(stdout);  //--> now in 136
+        // printf("%s has departed\n", (char *)poppedCycle); fflush(stdout);  //--> now in 145
         sem_post(&s_wrt);         //increase
         
-        
-        
+
         //WriterCode Start
         pthread_mutex_lock(&wcs); //lock wcs
-        printf("%s has departed\n", (char *)poppedCycle); fflush(stdout);  // from--> 129
+        printf("%s has departed\n", (char *)poppedCycle); fflush(stdout);  // from--> 139
         writeCount = writeCount-1;
         // printf("COUNT DOWN---:%d\n",writeCount);
         if (writeCount == 0){

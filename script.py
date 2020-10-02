@@ -5,7 +5,7 @@ cycle = int(input("Enter cycle count: "))
 paybooth = int(input("Enter payment capcity count: "))
 filepath = "1605066.txt"
 # filepath = input("Enter your filename (i.e: 1605000.txt): ")
-text_file = open("simulatorResult.txt", "w")
+# text_file = open("simulatorResult.txt", "w")
 
 
 def get_numbers(text):
@@ -27,10 +27,10 @@ with open(filepath) as fp:
     for line in fp:
         # print(line)
         for i in range(service_room):
-            #print("In_R{}\tOut_R{}".format(i+1, i+1), end="\t")
-            text_file.write("In_R{}\tOut_R{}\t".format(i+1, i+1))
-        #print("\tPayBooth\tDepartLine\tDeparted")
-        text_file.write("\tPayBooth\tDepartLine\tDeparted\n")
+            print("In_R{}\tOut_R{}".format(i+1, i+1), end="\t")
+            # text_file.write("In_R{}\tOut_R{}\t".format(i+1, i+1))
+        print("\tPayBooth\tDepartLine\tDeparted")
+        # text_file.write("\tPayBooth\tDepartLine\tDeparted\n")
 
         index = get_numbers(line)
 
@@ -60,14 +60,14 @@ with open(filepath) as fp:
             departed.append(cycle)
 
         for i in range(service_room):
-            # print("{}\t{}".format(in_rooms[i], out_rooms[i]), end="\t")
-            text_file.write("{}\t\t{}\t\t".format(in_rooms[i], out_rooms[i]))
-        # print("\t{}\t\t{}\t\t{}".format(paybooth, departLine, departed))
-        text_file.write("\t{}\t\t\t{}\t\t\t{}\n".format(paybooth, departLine, departed))
-        # print("====================================================================")
-        text_file.write("====================================================================\n")
+            print("{}\t{}".format(in_rooms[i], out_rooms[i]), end="\t")
+            # text_file.write("{}\t\t{}\t\t".format(in_rooms[i], out_rooms[i]))
+        print("\t{}\t\t{}\t\t{}".format(paybooth, departLine, departed))
+        # text_file.write("\t{}\t\t\t{}\t\t\t{}\n".format(paybooth, departLine, departed))
+        print("====================================================================")
+        # text_file.write("====================================================================\n")
 
         time.sleep(0.1)
     # text_file.close()
 
-text_file.close()
+# text_file.close()
